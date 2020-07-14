@@ -1,0 +1,42 @@
+.todo-is-completed .checkbox {
+  color: #000;
+  background: #fff;
+}
+
+.todo-is-completed input {
+  text-decoration: line-through;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease-in-out;
+  border: 1px solid black;
+}
+
+.checkbox:hover {
+  background: black;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.red {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease-in-out;
+  border: 1px solid black;
+  background: red;
+}
