@@ -6,7 +6,7 @@ const tasks = [
     title: "Do an app",
     type: { _id: "5b21ca3eeb7f6fbccd471818", name: "Work" },
     description: "use react and next",
-    isDone: true,
+    isCompleted: false,
   },
   {
     _id: "5b21ca3eeb7f6fbccd471816",

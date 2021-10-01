@@ -18,7 +18,7 @@ class RegisterForm extends Form {
   };
 
   doSubmit = async () => {
-    /*   try {
+    /* try {
       const response = await userService.register(this.state.data);
       auth.loginWithJwt(response.headers["x-auth-token"]);
       window.location = "/";
@@ -31,7 +31,7 @@ class RegisterForm extends Form {
     }
   };
  */
-    console.log("submit");
+    console.log("submitted");
   };
   render() {
     return (
