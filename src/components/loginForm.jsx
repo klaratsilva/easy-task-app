@@ -1,7 +1,7 @@
 import React from "react";
 import Form from "./common/form";
 import Joi from "joi-browser";
-//import auth from "../services/authService";
+
 import { Redirect } from "react-router-dom";
 
 class LoginForm extends Form {
@@ -16,7 +16,8 @@ class LoginForm extends Form {
   };
 
   doSubmit = async () => {
-    /* try {
+    console.log("logged");
+    /*   try {
       const { data } = this.state;
       await auth.login(data.username, data.password);
 
@@ -29,7 +30,6 @@ class LoginForm extends Form {
         this.setState({ errors });
       }
     } */
-    console.log("submited");
   };
 
   render() {
