@@ -10,6 +10,7 @@ class Form extends Component {
   };
 
   validate = () => {
+    console.log('small test')
     const options = {
       abortEarly: false,
     };
