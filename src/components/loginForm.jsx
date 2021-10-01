@@ -29,7 +29,7 @@ class LoginForm extends Form {
         this.setState({ errors });
       }
     } */
-    console.log("submited");
+    console.log("submited in the master");
   };
 
   render() {
